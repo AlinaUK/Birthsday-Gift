@@ -1,0 +1,103 @@
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(to bottom, #FFDAB9, #563C5C); 
+    color: #563C5C;
+    margin: 0;
+    padding: 20px;
+}
+
+
+#header h1 {
+    font-size: 2.5em; 
+    color: palevioletred;
+    text-shadow: 0px 2px 5px #ffffff; 
+}
+
+
+#bff-img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px auto; 
+    border: 6px solid white; 
+    display: block; 
+}
+
+
+#bday-age {
+    background-color: #7DF9FF; 
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+#bday-date {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+
+.gift-section {
+    margin: 30px 0;
+}
+
+.gift-title {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+    border-radius: 15px;
+    transition: background-image 0.3s ease-in-out; 
+}
+
+.gift-img {
+    background-image: url('/birthsday_hover.jpg'); 
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+    border-radius: 15px;
+    transition: background-image 0.3s ease-in-out;
+}
+
+
+.gift-img:hover {
+    background-image: url('/happy.gif'); 
+}
+
+
+.gift-img:hover.second-hover {
+    background-image: url('/excited-minions-gif.gif'); 
+}
+
+
+#footer {
+    font-style: italic;
+    color: white;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+#footer a {
+    color: #FFDAB9; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    text-decoration: underline; 
+}
